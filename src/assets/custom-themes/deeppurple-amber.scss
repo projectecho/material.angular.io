@@ -1,9 +1,11 @@
 @import '../../app-theme';
+@import 'palette.scss';
 
 // Define the light theme.
-$primary: mat-palette($mat-deep-purple);
-$accent:  mat-palette($mat-amber, A200, A100, A400);
+$primary: mat-palette($i-primary);
+$accent:  mat-palette($i-accent);
+$warning: mat-palette($i-warn);
 
-$theme: mat-light-theme($primary, $accent);
+$theme: mat-light-theme($primary, $accent, $warning);
 @include angular-material-theme($theme);
-@include material-docs-app-theme($theme);
+@include material-docs-app-theme($theme); 

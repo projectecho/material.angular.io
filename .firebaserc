@@ -1,1 +1,6 @@
-{}
+{
+  "projects": {
+    "material": "material-angular-io-fd188",
+    "material-angular-io": "material-angular-io-fd188"
+  }
+}
